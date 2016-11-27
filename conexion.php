@@ -1,5 +1,5 @@
 <?php 
-	date_default_timezone_set('America/El_Salvador');
+	date_default_timezone_set(''); 
 	class mysql{
 		public function extern(){
 			$datos = array(
@@ -506,5 +506,11 @@
 			else return 0;
 		}
 	}
+
+
+/*
+	Marcus Holloway - 27112016
+	GNU v3.0
+*/
 
  ?>
