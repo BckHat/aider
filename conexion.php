@@ -3,12 +3,12 @@
 	class mysql{
 		public function extern(){
 			$datos = array(
-					'l' => 'localhost',
-					'u' => 'root',
-					'p' => '',
-					'db' => 'myreader',
-					'usernameWeb' => 'BtooomScan',
-					'link' => "localhost/readerx"
+					'l' => 	'',
+					'u' => 	'',
+					'p' => 	'',
+					'db' => '',
+					'usernameWeb' => '',
+					'link' => ""
 				);
 			return $datos;
 		}
