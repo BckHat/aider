@@ -1,0 +1,21 @@
+.aider-default-button{
+	border-style: none;
+	outline-style: none;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #4285f4;
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	transition: .3s ease-in-out;
+}
+.aider-default-button:hover{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+.aider-default-button:active{
+	background: orange;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+}
+
